@@ -1,0 +1,98 @@
+<!--Provide a Github link / or any other way to send the source code and must be able to present a working version of the code.
+1.	Create the following using mostly css & html: 
+- Nav with 4 items (e.g. 'nav A' or 'nav 1')
+- 'on', 'off' & hover states
+- 'on' states will show sub nav with 4 items: (e.g. 'subnav A 1' - indicate it belongs to that nav) 
+- (optional) on 'click' of the sub items, create a simple landing page indicating you're on that sub item.
+- nav needs to be responsive - must show the most efficient (not page heavy) page delivery 
+Show your creativity. -->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+  h1 {font-size: 2em;text-transform: uppercase;text-align: center;padding:2% 0;}
+  .full {width: 100%; max-width: 1400px;margin:0 auto;}
+  .nav_section ul {padding: 5%;}
+  .nav_section ul li {list-style:none;text-align:center;}
+  .nav_section ul li a, .nav_section ul ul li a {color: #000;opacity: .5;text-decoration: none;font-weight: bold;}
+  .nav_section ul li a:hover {opacity: 1;text-decoration: underline;font-weight: bold;transition: .5s ease-out;-moz-transition: .5s ease-out;-webkit-transition: .5s ease-out;-o-transition: .5s ease-out;cursor: pointer;}
+  .nav_section ul ul {display: none;}
+  .nav_section ul li:hover ul {display: block;}
+  .grid-1-4 {float:left;width:25%;}
+  .subMenuItem {font-family:sans-serif;font-size:1.5em;text-transform:uppercase;letter-spacing: 0.05em;}
+  </style>
+</head>
+<body>
+<div class="top-section">
+  <div class="logo-section">
+    <h1>Jan's Coding Exercise - Nav</h1>
+  </div>
+</div>
+<div class="nav_section full">
+  <div class="grid-1-4">
+    <ul>
+      <li><a href="#"><span class="subMenuItem">Nav Item 1</span></a>
+        <ul>
+          <li><a href="#"><span class="subMenuItem">subNav Item 1a</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 1b</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 1c</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 1d</span></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="grid-1-4">
+    <ul>
+      <li><a href="#"><span class="subMenuItem">Nav Item 2</span></a>
+        <ul>
+          <li><a href="#"><span class="subMenuItem">subNav Item 2a</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 2b</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 2c</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 2d</span></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="grid-1-4">
+    <ul>
+      <li><a href="#"><span class="subMenuItem">Nav Item 3</span></a>
+        <ul>
+          <li><a href="#"><span class="subMenuItem">subNav Item 3a</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 3b</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 3c</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 3d</span></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="grid-1-4">
+    <ul>
+      <li><a href="#"><span class="subMenuItem">Nav Item 4</span></a>
+        <ul>
+          <li><a href="#"><span class="subMenuItem">subNav Item 4a</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 4b</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 4c</span></a>
+          </li>
+          <li><a href="#"><span class="subMenuItem">subNav Item 4d</span></a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
